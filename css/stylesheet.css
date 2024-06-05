@@ -73,7 +73,8 @@ section p {
 }
 
 main {
-    margin: 50px;
+    width: 925px;
+    margin: 50px auto;
 }
 
 main .waw {
@@ -85,6 +86,7 @@ main .waw {
 main .gb1 {
     display: flex;
     justify-content: start;
+    column-gap: 120px;
 }
 
 
