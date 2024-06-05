@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #01888b;
+    padding: 20px 0;
+    position: relative;
+    box-shadow: 0 4px 8px grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+div img {
+    width: 335px;
+    height: 67px;
+    top: 39px;
+    left: 138px;
+}
+
+nav ul {
+    display: flex;
+    font-weight: lighter;
+    font-size: 30px;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+div .maps {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 50px;
+    
+}
+iframe {
+    width: 572px;
+    height: 572px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.box1 { 
+    width: 400px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px grey;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.box2 { 
+    width: 400px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px grey;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.box3 { 
+    width: 400px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px grey;
+    padding: 20px;
+    background-color: white;
+}
+
+
+
+
+footer {
+    text-align: center;
+    background-color: #143433; 
+    padding: 20px 0;
+    position: relative;
+    box-shadow: 0 4px 8px grey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+footer p {
+    display: flex;
+}
+
+footer .mail {
+    width: 40px;
+    height: 32px;
+    
+}
+
+footer .phone {
+    width: 32px;
+    height: 32px;
+    padding-left: 15px;
+}
+
+footer ul {
+    display: flex;
+    font-weight: lighter;
+    font-size: 15px;
+    list-style: none;
+    gap: 2rem;
+}
+
+div {
+    margin-left: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span {
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+footer ul a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.kopi {
+    color: white;
+}
+.kopi:hover {
+    color: orange;
+}
+
+.non {
+    color: white;
+}
+.non:hover {
+    color: orange;
+}
+
+.teh {
+    color: white;
+}
+.teh:hover {
+    color: orange;
+}
+
+.lokasi {
+    color: white;
+}
+.lokasi:hover {
+    color: orange;
+}
+
+.cs {
+    color: white;
+}
+.cs:hover {
+    color: orange;
+}   
+
