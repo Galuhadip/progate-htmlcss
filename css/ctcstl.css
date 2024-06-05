@@ -61,9 +61,12 @@ form {
     border: 1px solid #ccc;
     border-radius: 1em;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
-form #name {
+/* form #name {
     width: 250px;
     padding: 10px;
     margin-left: 85px;
@@ -107,6 +110,27 @@ form #message {
     margin-left: 60px;
     margin-bottom: 20px;
     border-radius: 5px;
+    border: 1px solid grey;
+} */
+
+.form-section{
+    display: flex;
+}
+
+.form-section > label{
+    width: 200px;
+}
+
+.form-section > input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid grey;
+}
+.form-section > textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
     border: 1px solid grey;
 }
 
